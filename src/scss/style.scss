@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1C1C1C;
+}
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+
+@import "header";
+@import "home";
+@import "orders";
+@import "info";
+@import "media";
